@@ -4,6 +4,16 @@
   # Install firefox.
   programs = { 
     firefox.enable = true;
+    
+    gamemode = { 
+      enable = true; 
+      enableRenice = true;
+    };
+    
+    vim = { 
+      enable = true;
+      defaultEditor = true; 
+    };
 
     steam = {
       enable = true;
@@ -23,10 +33,8 @@
   # System packages 
   environment.systemPackages = with pkgs; [
     # Term stuff
-    vim 
     wget
     git
-    gamemode
     mangohud
     btop-rocm 
     qemu 
@@ -61,7 +69,6 @@
     kate
     khelpcenter
     konsole
-    oxygen
     qrca
     kwalletmanager
     plasma-systemmonitor
