@@ -8,6 +8,9 @@
       ./hardware-configuration.nix
       ./appconfig.nix
     ];
+  
+  # Enable flakes and that
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   # Boot and Kernel stuff
   boot = {
