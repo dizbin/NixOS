@@ -1,6 +1,11 @@
 { config, pkgs, ... }:
 
 {
+  # Temp hacks
+  nixpkgs.config.permittedInsecurePackages = [
+    "pnpm-10.29.2"
+  ];
+  
   # Install firefox.
   programs = { 
     firefox.enable = true;
