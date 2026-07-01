@@ -12,15 +12,8 @@
   # Enable flakes and that
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
-  # Boot and Kernel stuff
+  # Boot stuff
   boot = {
-    # Boot newest kernel version available
-    kernelPackages = pkgs.linuxPackages_latest;
-    # Load modules 
-    kernelModules = [ ];
-    # Kernel parameters
-    kernelParams = [ "quiet" ];
-    
     plymouth.enable = true; 
     loader = { 
       systemd-boot.enable = true;
