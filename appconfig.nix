@@ -27,6 +27,14 @@
       localNetworkGameTransfers.openFirewall = true; 
     };
   };
+  
+  # Jovian configuration
+  jovian.steam = {
+    enable = true;          
+    autoStart = true;       
+    user = "dizbin";         
+    desktopSession = "plasma";
+  };
 
   # Nixpkg configs 
   nixpkgs = {
@@ -44,7 +52,8 @@
     btop-rocm 
     qemu 
     fastfetch 
- 
+    python314 
+
     # AI related shit
     rocmPackages.rocm-smi
     rocmPackages.hip-common
