@@ -20,16 +20,6 @@
       defaultEditor = true; 
     };
     
-    nix-ld = {
-      enable = true;
-      libraries = with pkgs; [
-        stdenv.cc.cc
-        zlib
-        fuse
-        python312Packages.tkinter
-      ];
-    };
-    
     steam = {
       enable = true;
       remotePlay.openFirewall = true; 
