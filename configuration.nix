@@ -67,7 +67,13 @@
   };
 
   # Virtualisation settings
-  virtualisation.libvirtd.enable = true; 
- 
+  virtualisation = {
+    libvirtd.enable = true; 
+    podman = {
+      enable = true;
+      dockerCompat = true;
+    };
+  };
+
   system.stateVersion = "26.05"; # Did you read the comment? No 
 }

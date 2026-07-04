@@ -19,7 +19,17 @@
       enable = true;
       defaultEditor = true; 
     };
-
+    
+    nix-ld = {
+      enable = true;
+      libraries = with pkgs; [
+        stdenv.cc.cc
+        zlib
+        fuse
+        python312Packages.tkinter
+      ];
+    };
+    
     steam = {
       enable = true;
       remotePlay.openFirewall = true; 
@@ -44,6 +54,8 @@
     btop-rocm 
     qemu 
     fastfetch 
+    python314
+    distrobox 
  
     # AI related shit
     rocmPackages.rocm-smi
