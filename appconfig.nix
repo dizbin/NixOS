@@ -46,6 +46,7 @@
     fastfetch 
     python314
     distrobox 
+    unzip
  
     # AI related shit
     rocmPackages.rocm-smi
@@ -56,7 +57,7 @@
     
     # Gooey stuff
     kitty
-    transmission_4-qt6
+    transmission_4-qt
     vscodium
     spotify
     vesktop
