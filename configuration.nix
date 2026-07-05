@@ -61,7 +61,7 @@
   users.users."dizbin" = {
     isNormalUser = true;
     description = "Diz Bin";
-    extraGroups = [ "networkmanager" "wheel" "users" "video" "audio" ];
+    extraGroups = [ "networkmanager" "wheel" "users" "video" "audio" "libvirtd" ];
     packages = with pkgs; [
     ];
   };
