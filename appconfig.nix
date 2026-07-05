@@ -80,5 +80,6 @@
     qrca
     kwalletmanager
     plasma-systemmonitor
+    kwin-x11
   ];
 }

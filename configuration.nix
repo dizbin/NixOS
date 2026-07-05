@@ -33,10 +33,7 @@
   # Service descriptions 
   services = {
     # Gotta have that Goooey
-    displayManager.sddm = {
-      enable = true;
-      wayland.enable = true;
-    };
+    displayManager.plasma-login-manager.enable = true;
     desktopManager.plasma6.enable = true;
     
     # We use Wayland up in here 
