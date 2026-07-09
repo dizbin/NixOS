@@ -15,6 +15,7 @@
   fileSystems."/" =
     { device = "/dev/nvme0n1p3";
       fsType = "xfs";
+      options = [ "async" "noatime" ];
     };
 
   fileSystems."/boot" =
@@ -26,6 +27,7 @@
   fileSystems."/home" =
     { device = "/dev/nvme0n1p4";
       fsType = "xfs";
+      options = [ "nosuid" "async" "noatime" ];
     };
 
   swapDevices =
