@@ -47,6 +47,7 @@
     python314
     distrobox 
     unzip
+    usbutils 
  
     # AI related shit
     rocmPackages.rocm-smi
