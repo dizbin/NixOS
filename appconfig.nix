@@ -10,6 +10,9 @@
   programs = { 
     firefox.enable = true;
     
+    chromium = {
+      enablePepperFlash = true;  
+    };
     gamemode = { 
       enable = true; 
       enableRenice = true;
@@ -68,6 +71,7 @@
     virt-manager
     heroic-unwrapped
     vlc
+    chromium
   ];
   
   # Exclude plasma shit
@@ -80,6 +84,8 @@
     qrca
     kwalletmanager
     plasma-systemmonitor
-    kwin-x11
+    xkwin-x11
+    firefoxWrapper
+    chromium
   ];
 }
