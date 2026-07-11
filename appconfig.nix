@@ -68,7 +68,6 @@
     virt-manager
     heroic-unwrapped
     vlc
-    chromium
   ];
   
   # Exclude plasma shit
@@ -82,7 +81,5 @@
     kwalletmanager
     plasma-systemmonitor
     kwin-x11
-    firefoxWrapper
-    chromium
   ];
 }
