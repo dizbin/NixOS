@@ -10,9 +10,6 @@
   programs = { 
     firefox.enable = true;
     
-    chromium = {
-      enablePepperFlash = true;  
-    };
     gamemode = { 
       enable = true; 
       enableRenice = true;
