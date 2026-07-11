@@ -81,7 +81,7 @@
     qrca
     kwalletmanager
     plasma-systemmonitor
-    xkwin-x11
+    kwin-x11
     firefoxWrapper
     chromium
   ];
