@@ -84,4 +84,4 @@
     plasma-systemmonitor
     kwin-x11
   ];
-};
+}
