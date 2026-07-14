@@ -61,6 +61,7 @@
     virt-manager
     heroic-unwrapped
     vlc
+    kdePackages.kcalc
   ];
   
   # Exclude plasma shit
