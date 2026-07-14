@@ -15,10 +15,18 @@
       enableRenice = true;
     };
     
+    steam = {
+      enable = true;
+      remotePlay.openFirewall = true; 
+      dedicatedServer.openFirewall = true; 
+      localNetworkGameTransfers.openFirewall = true; 
+    };
+  
     vim = { 
       enable = true;
       defaultEditor = true; 
     };
+  };
 
   # Nixpkg configs 
   nixpkgs = {
@@ -76,4 +84,4 @@
     plasma-systemmonitor
     kwin-x11
   ];
-}
+};
