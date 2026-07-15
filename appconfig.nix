@@ -48,6 +48,7 @@
     distrobox 
     unzip
     usbutils 
+    e2fsprogs
  
     # AI related shit
     rocmPackages.rocm-smi
