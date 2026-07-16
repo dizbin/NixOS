@@ -49,6 +49,7 @@
     unzip
     usbutils 
     e2fsprogs
+    rust-analyzer-unwrapped
  
     # AI related shit
     rocmPackages.rocm-smi
