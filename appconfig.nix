@@ -50,7 +50,6 @@
     unzip
     usbutils 
     e2fsprogs
-    rust-analyzer-unwrapped
  
     # AI related shit
     rocmPackages.rocm-smi
@@ -59,10 +58,14 @@
     rocmPackages.hipblas-common
     ollama-rocm
     
+    # Vscode
+    vscodium
+    pkgs.vscode-extensions.continue.continue
+    vscode-extensions.rust-lang.rust-analyzer
+ 
     # Gooey stuff
     kitty
     transmission_4-qt
-    vscodium
     spotify
     vesktop
     gimp
