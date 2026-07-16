@@ -1,9 +1,10 @@
 { config, pkgs, ... }:
 
 {
-  # Temp hacks
+  # Fucking shit all up ovahea 
   nixpkgs.config.permittedInsecurePackages = [
     "pnpm-10.29.2"
+    "electron-40.10.5"    
   ];
   
   # Install firefox.
